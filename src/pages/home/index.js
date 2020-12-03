@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react';
-import Topic from './components/Topic';
 import List from './components/List';
 import Recommend from './components/Recommend';
 import Writers from './components/Writers';
@@ -14,7 +13,6 @@ class Home extends PureComponent {
             <HomeWrapper>
                 <HomeWrapperLeft>
                     <img className = 'banner-img' src='https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2624095848,4048078752&fm=26&gp=0.jpg' alt=''></img>
-                    <Topic></Topic>
                     <List></List>
                 </HomeWrapperLeft>
                 

@@ -4,7 +4,6 @@ import { fromJS } from 'immutable';
 
 
 const defaultState = fromJS({
-    topicList: [],
     articleList: [],
     articlePage: 1 ,
     showScroll: false
@@ -14,7 +13,6 @@ const reducer = (state = defaultState, action) => {
     switch(action.type){
         case 'update_home_data':
             return state.merge({
-                'topicList': fromJS(action.topicList),
                 'articleList': fromJS(action.articleList)
             });
         case 'more_home_data':

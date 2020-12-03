@@ -1,23 +1,6 @@
 {
     "success": true,
     "data": {
-        "topicList": [{
-            "id": 1,
-            "title": "Hot Spots",
-            "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1605755508519&di=3d081aee1fc26ac1ed308f013c41e3e8&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20181205%2F4d8b8a9b7c05420aa97372549b80fb7b.jpeg"
-        },{
-            "id": 2,
-            "title": "Topic 2",
-            "imgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1605755508519&di=3d081aee1fc26ac1ed308f013c41e3e8&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20181205%2F4d8b8a9b7c05420aa97372549b80fb7b.jpeg"
-        },{
-            "id": 3,
-            "title": "Topic 3",
-            "imgUrl": "https://upload.jianshu.io/users/upload_avatars/3950651/acfaa0ce-42fe-424a-b7c8-9a0136fb96ec.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/180/h/180"
-        },{
-            "id": 4,
-            "title": "Topic 4",
-            "imgUrl": "https://upload.jianshu.io/users/upload_avatars/1300228/1169f257-ab3b-44f2-bed2-57282511eb8f.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/180/h/180"
-        }],
         "articleList": [{
             "id": 1,
             "title": "Trip to the Great Ocean Road",
