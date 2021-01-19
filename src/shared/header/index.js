@@ -44,20 +44,19 @@ class Header extends Component {
                         <span className = {focused ? 'focused iconfont magnifier': 'iconfont magnifier'}>&#xe614;</span>
                         { this.displayTopSearches () }
                     </SearchWrapper>
-                    {
-                        login ? 
-                        <NavItem onClick={logout} className='right'>Logout</NavItem> : 
-                        <Link to='/login'><NavItem className = 'right'>Login</NavItem></Link>
-                    }
-                    
-                    
+                       
                 </Nav>
                 <ExtraBtns>
+                    {
+                        login ? 
+                        <NavItem onClick={logout} className='right reg'><Button className = 'reg'>Logout</Button></NavItem> : 
+                        <Link to='/login'><NavItem className = 'right reg'><Button className = 'reg'>Login</Button></NavItem></Link>
+                    }
                     <Button className = 'write'>
                         <span className="iconfont">&#xe615;</span>
                         Write Blog
                     </Button>
-                    <Button className = 'reg'>Sign up</Button>
+                    
                 </ExtraBtns>
             </StyledHeader>
         )

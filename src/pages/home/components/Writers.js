@@ -18,10 +18,12 @@ function Writers() {
             axios.get('/api/writters.json').then((res)=>{
                 const result = res.data;
                 setWritters(result);
+                return
             })
         }
-        fetchData();
-    })
+        fetchData()
+        
+    },[])
 
     return(
         <WrittersWrapper>
